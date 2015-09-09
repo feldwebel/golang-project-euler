@@ -1,9 +1,17 @@
 // euler0001.go
+/*
+   Find the sum of all the multiples of 3 or 5 below 1000.
+
+   @author Dan Tereschenko <dan@tereschenko.info>
+   @copyright 2015
+*/
 package main
 
 import (
 	"fmt"
 )
+
+// Nothins serious, just straightforward division modulo N
 
 func main() {
 
