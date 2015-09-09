@@ -1,5 +1,5 @@
 # golang-project-euler
 
-*install Go, set up GOPATH environment variable
-*clone the repository to your computer
-*run programms: go run eulerxxxx.go
+* Install Go, set up GOPATH environment variable
+* Clone the repository to your computer
+* Run programms: go run eulerxxxx.go
