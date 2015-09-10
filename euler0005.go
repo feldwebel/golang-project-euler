@@ -3,7 +3,7 @@
    What is the smallest positive number that is evenly divisible
    by all of the numbers from 1 to 20?
 
-   Prime factorization instead of straightforward brutforce
+   Prime factorization instead of straightforward bruteforce
 
    @author Dan Tereschenko <dan@tereschenko.info>
    @copyright 2015
