@@ -20,7 +20,7 @@ It is mathematical fact: the prime divider cannot be greater than
 dividend's square root
 */
 func speedupHack(n int) int {
-	return int(math.Sqrt(float64(n)))
+	return int(math.Sqrt(float64(n))) + 1
 }
 
 func isPrime(factor int) bool {
