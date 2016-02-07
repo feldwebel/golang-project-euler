@@ -35,7 +35,7 @@ func main() {
 		}
 		if isPrime(i) {
 			c++
-			if c == n - 1 {
+			if c == n-1 {
 				fmt.Println(i)
 				break
 			}

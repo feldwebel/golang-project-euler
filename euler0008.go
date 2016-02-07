@@ -1,6 +1,6 @@
 // euler0008 project main.go
 /*
-   Find the thirteen adjacent digits in the 1000-digit given number that 
+   Find the thirteen adjacent digits in the 1000-digit given number that
    have the greatest product. What is the value of this product?
 
    @author Dan Tereschenko <dan@tereschenko.info>
