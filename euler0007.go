@@ -9,22 +9,9 @@ package main
 
 import (
 	"fmt"
-	"math"
+	"golang-project-euler/common"
 )
 
-func speedupHack(n int) int {
-	return int(math.Sqrt(float64(n))) + 1
-}
-
-func isPrime(factor int) bool {
-	lim := speedupHack(factor)
-	for f := 3; f < lim; f += 2 {
-		if factor%f == 0 {
-			return false
-		}
-	}
-	return true
-}
 
 func main() {
 	n := 10001
@@ -33,7 +20,7 @@ func main() {
 		if i > 10 && i%10 == 5 {
 			continue
 		}
-		if isPrime(i) {
+		if common.IsPrime(uint64(i)) {
 			c++
 			if c == n-1 {
 				fmt.Println(i)

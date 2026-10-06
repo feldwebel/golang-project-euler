@@ -4,7 +4,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/feldwebel/golang-project-euler/common"
+	"golang-project-euler/common"
 )
 
 var result, i uint64

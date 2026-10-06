@@ -15,24 +15,6 @@ import (
 	"math"
 )
 
-//func isFound(i int) bool {
-//    for x := 11; x <= 20; x++ {
-//        if i%x != 0 {
-//            return false
-//        }
-//    }
-//    return true
-//}
-
-//func main() {
-//    for i := 20; ; i +=2 {
-//        if isFound(i) {
-//            fmt.Println(i)
-//            break
-//        }
-//    }
-//}
-
 var prime = []int{2, 3, 5, 7, 11, 13, 17, 19}
 
 func getFactors(n int) map[int]int {
