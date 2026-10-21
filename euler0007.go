@@ -12,7 +12,6 @@ import (
 	"golang-project-euler/common"
 )
 
-
 func main() {
 	n := 10001
 	c := 0
