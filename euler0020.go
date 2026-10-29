@@ -1,3 +1,9 @@
+/*
+   Find the sum of all the digits of 100!.
+
+   @author Dan Tereschenko <dan@tereschenko.info>
+   @copyright 2026
+*/
 package main
 
 import (
